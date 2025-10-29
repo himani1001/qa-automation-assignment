@@ -56,6 +56,19 @@ cd qa-automation-assignment
 <pre><code>python -m pytest tests/test_login.py -v
 </code></pre>
 
+<h3>Generate HTML Test Report</h3>
+<pre>pytest --html=report.html --self-contained-html</pre>
+
+<p>After the run, open <b>report.html</b> in any browser to view the detailed report.</p>
+
+<h2>🧱 Test Data Configuration (utils/config.py)</h2>
+<p><b>Bonus Feature:</b> Reusable constants are stored in a separate configuration file for maintainability.</p>
+<pre>
+BASE_URL = "https://practicetestautomation.com/practice-test-login/"
+VALID_USERNAME = "student"
+VALID_PASSWORD = "Password123"
+</pre>
+
 <hr>
 
 <h2>🧩 Test Scenarios</h2>
