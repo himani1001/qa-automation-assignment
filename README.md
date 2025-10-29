@@ -57,6 +57,7 @@ cd qa-automation-assignment
 </code></pre>
 
 <h3>Generate HTML Test Report</h3>
+Bonus Feature:
 <pre>pytest --html=report.html --self-contained-html</pre>
 
 <p>After the run, open <b>report.html</b> in any browser to view the detailed report.</p>
