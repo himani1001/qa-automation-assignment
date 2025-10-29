@@ -18,7 +18,6 @@ qa-automation-assignment/
 │   └── config.py             # Contains base URL and credentials
 │
 ├── pytest.ini                # Pytest configuration file
-├── requirements.txt          # Required dependencies
 └── README.md                 # Documentation (this file)
 </pre>
 
@@ -48,10 +47,6 @@ cd qa-automation-assignment
 <hr>
 
 <h2>▶️ Commands to Run Tests</h2>
-
-<h3>Run All Tests</h3>
-<pre><code>pytest -v
-</code></pre>
 
 <h3>Run a Specific Test File</h3>
 <pre><code>pytest tests/test_login.py -v
@@ -93,7 +88,6 @@ cd qa-automation-assignment
 <h2>🧠 Additional Notes</h2>
 <ul>
   <li>No <code>__init__.py</code> files are required — <code>pytest.ini</code> handles imports.</li>
-  <li>Make sure browsers are installed before running Playwright tests.</li>
   <li>Headless mode can be enabled in <code>handle_browser()</code> by setting <code>headless=True</code>.</li>
   <li>The project follows the <strong>Page Object Model (POM)</strong> structure for cleaner test design.</li>
 </ul>
