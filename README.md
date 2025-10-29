@@ -112,7 +112,3 @@ cd qa-automation-assignment
 </ul>
 
 <hr>
-
-<p><strong>Author:</strong> Your Name<br>
-📅 <em>Last Updated:</em> October 2025<br>
-💻 <em>Automation Framework:</em> Pytest + Playwright</p>
